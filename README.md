@@ -2,7 +2,7 @@
 
 ![](screenshot.png)
 
-**Getting Started :**
+## Getting Started
 
 ```
 clone this repo

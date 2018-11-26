@@ -1,6 +1,8 @@
 # React Pokedex
 
-**How to use :**
+![](screenshot.png)
+
+**Getting Started :**
 
 ```
 clone this repo
@@ -10,3 +12,5 @@ cd Pokedex
 npm start
 
 ```
+
+

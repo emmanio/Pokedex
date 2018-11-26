@@ -4,11 +4,12 @@ import PokeCell from './PokeCell.js'
 import {pokeClasses} from '../pokeClasses.js'
 
 
-const PokeList = () => {
+const PokeList = ({handleClick}) => {
   const cells = pokeClasses.map(pokeClass => {
     return <PokeCell
     key={pokeClass.id}
-    pokeClass={pokeClass}/>
+    pokeClass={pokeClass}
+    handleClick={handleClick}/>
   })
   return (
     <section className="poke-list">

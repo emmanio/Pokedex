@@ -8,11 +8,16 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {}
+    this.handleClick=this.handleClick.bind(this)
+  }
+
+  handleClick (id) {
+    console.log(id)
   }
   render () {
     return (
       <div className="App">
-      <PokeList/>
+      <PokeList handleClick={this.handleClick}/>
       <DetailView/>
       </div>
     )
